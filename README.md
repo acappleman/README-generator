@@ -4,12 +4,12 @@
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-* What was your motivation?
-* Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-* What problem does it solve?
-* What did you learn?
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -48,7 +48,7 @@ The last section of a high-quality README file is the license. This lets other d
 
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-## How to Contribute
+## Contributing
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
@@ -58,6 +58,6 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 ## Questions
 
-Github Username: 
+[GitHub](https://github.com/acappleman) 
 
-Email:
+[Email](mailto:amanda.cappleman@gmail.com)

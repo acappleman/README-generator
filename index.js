@@ -21,13 +21,18 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'What steps are required to install your project?',
+    message: 'What should the user have installed to utilize your project?',
     name: 'installation',
 },
 {
     type: 'input',
+    message: 'How does the user utilize your application?',
+    name: 'usage',
+},
+{
+    type: 'input',
     message: 'Which license are you using? (MIT, ISC, SOMETHING ELSE)',
-    name: license,
+    name: 'license',
 }, 
 {
     type: 'input',
@@ -41,12 +46,12 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'Please provide your GitHub username for questions.',
+    message: 'Please provide your GitHub username.',
     name: 'username',
 },
 {
     type: 'input',
-    message: 'Provide your email for questions.',
+    message: 'Provide your email.',
     name: 'email',
 },];
 
