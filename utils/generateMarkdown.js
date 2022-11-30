@@ -15,9 +15,9 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let link = '';
   if (license === 'MIT') {
-    badge = '[MIT](https://opensource.org/licenses/MIT)'
+    link = '[MIT](https://opensource.org/licenses/MIT)'
   } else if (license === 'Apache License 2.0') {
-    badge = '[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)'
+    link = '[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)'
   }
   return link;
 }
@@ -26,10 +26,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
-  return `## License
-
-  Licensed under the ${renderLicenseLink(license)} license.
-  `
+  return `Licensed under the ${renderLicenseLink(license)} license.`
 }
 
 //TODO: Create a function to generate Table of Contents 
@@ -63,7 +60,10 @@ ${data.installation}
 
 ${data.usage}
 
-${renderLicenseLink(data.license)}
+## License
+
+${renderLicenseSection(data.license)}
+
 ---
 
 ## Contributions

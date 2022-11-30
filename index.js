@@ -18,7 +18,6 @@ const questions = [{
     type: 'checkbox',
     message: 'What sections do you want to include in your table of contents?',
     choices: ['Installation', 'License', 'Contributions', 'Tests', 'Questions'],
-    default: [""],
     name: 'tableOfContents',
 },
 {
@@ -34,7 +33,7 @@ const questions = [{
 {
     type: 'list',
     message: 'Which license are you using?',
-    choices: ['MIT', 'Apache License 2.0', 'none'], 
+    choices: ['MIT', 'Apache License 2.0'], 
     name: 'license',
 }, 
 {
